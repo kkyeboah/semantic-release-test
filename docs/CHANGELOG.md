@@ -1,3 +1,13 @@
+## [3.1.0](https://github.com/kkyeboah/semantic-release-test/compare/v3.0.1...v3.1.0) (2021-10-01)
+
+
+### Features
+
+* **CI:** add git workflow ([abfda68](https://github.com/kkyeboah/semantic-release-test/commit/abfda68812f7a1b6ddf7aa0e83f2a5d2a3487a81))
+* **CI:** trigger workflow 2 ([a192040](https://github.com/kkyeboah/semantic-release-test/commit/a192040c384b20cb3e2d1e6e40f6d3ee9983c444))
+* **CI:** trigger workflow 2 ([624465c](https://github.com/kkyeboah/semantic-release-test/commit/624465c7f803b36d661069fbd463a14f5fdf80b5))
+* **CI:** trigger workflow ([f8fca63](https://github.com/kkyeboah/semantic-release-test/commit/f8fca63c58e8b38997c453a98816be9daa829c5c))
+
 ### [3.0.1](https://github.com/kkyeboah/semantic-release-test/compare/v3.0.0...v3.0.1) (2021-10-01)
 
 
