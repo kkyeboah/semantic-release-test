@@ -1,3 +1,18 @@
+## [2.0.0](https://github.com/kkyeboah/semantic-release-test/compare/v1.2.0...v2.0.0) (2021-10-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* `extends` key in config file is now used for extending other config files
+* key in config file is now used for extending other config files
+* **readme:** CHANGE
+
+### Features
+
+* allow provided config object to extend other configs ([e66488a](https://github.com/kkyeboah/semantic-release-test/commit/e66488a3224994fea149ed0d969f16bf587fbe67))
+* allow provided config object to extend other configs ([2110da4](https://github.com/kkyeboah/semantic-release-test/commit/2110da429a2e0132d7517812b81ca7819cb4e8ad))
+* **readme:** BREAKING CHANGE try 3 ([8e05ad5](https://github.com/kkyeboah/semantic-release-test/commit/8e05ad59c53b1deb1dcaff721b63ba0d6382a014))
+
 ## [1.2.0](https://github.com/kkyeboah/semantic-release-test/compare/v1.1.0...v1.2.0) (2021-10-01)
 
 
