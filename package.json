@@ -17,6 +17,7 @@
     "semantic-release": "^18.0.0"
   },
   "release": {
+    "repositoryUrl" : "git@github.com:kkyeboah/semantic-release-test.git",
     "branches": [
       "main"
     ],
