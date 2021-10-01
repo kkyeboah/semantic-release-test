@@ -1,3 +1,22 @@
+## [4.0.0](https://github.com/kkyeboah/semantic-release-test/compare/v3.1.0...v4.0.0) (2021-10-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* This is a test to see if I can have multiple lines in here.
+```
+portMappings: [
+  {
+    hostPort: 80,
+    containerPort: 80,
+  }
+]
+```
+
+### Features
+
+* breaking change on purpose ([edb033a](https://github.com/kkyeboah/semantic-release-test/commit/edb033afc297e1f1dfd123263e1f3d9ffe6c0e08))
+
 ## [3.1.0](https://github.com/kkyeboah/semantic-release-test/compare/v3.0.1...v3.1.0) (2021-10-01)
 
 
