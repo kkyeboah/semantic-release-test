@@ -69,7 +69,6 @@
           ]
         }
       ],
-      "@semantic-release/npm",
       [
         "@semantic-release/exec",
         {
