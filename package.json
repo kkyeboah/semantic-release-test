@@ -1,6 +1,6 @@
 {
   "name": "test-changelog",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "scripts": {
     "semantic-release": "semantic-release"
@@ -14,16 +14,47 @@
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/npm": "^8.0.0",
     "@semantic-release/release-notes-generator": "^10.0.2",
+    "conventional-changelog-conventionalcommits": "^4.6.1",
     "semantic-release": "^18.0.0"
   },
   "release": {
-    "repositoryUrl" : "git@github.com:kkyeboah/semantic-release-test.git",
+    "repositoryUrl": "git@github.com:kkyeboah/semantic-release-test.git",
     "branches": [
       "main"
     ],
     "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits",
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES",
+              "BREAKING"
+            ]
+          }
+        }
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits",
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES",
+              "BREAKING"
+            ]
+          },
+          "writerOpts": {
+            "commitsSort": [
+              "subject",
+              "scope"
+            ]
+          }
+        }
+      ],
       [
         "@semantic-release/changelog",
         {
@@ -33,7 +64,9 @@
       [
         "@semantic-release/git",
         {
-          "assets": ["docs/CHANGELOG.md"]
+          "assets": [
+            "docs/CHANGELOG.md"
+          ]
         }
       ],
       "@semantic-release/npm",
