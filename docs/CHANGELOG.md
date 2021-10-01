@@ -1,3 +1,10 @@
+### [3.0.1](https://github.com/kkyeboah/semantic-release-test/compare/v3.0.0...v3.0.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* **package.json:** remove npm plugin ([ecc634a](https://github.com/kkyeboah/semantic-release-test/commit/ecc634a42c61e7740bf7ff9a3d15c54f65d8e0e9))
+
 ## [3.0.0](https://github.com/kkyeboah/semantic-release-test/compare/v2.0.0...v3.0.0) (2021-10-01)
 
 
