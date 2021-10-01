@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/kkyeboah/semantic-release-test/compare/v1.1.0...v1.2.0) (2021-10-01)
+
+
+### Features
+
+* **readme:** BREAKING CHANGE try 2 ([be47648](https://github.com/kkyeboah/semantic-release-test/commit/be476484fd8ba63927e6c6b2216ebc2f65501f25))
+
 # [1.1.0](https://github.com/kkyeboah/semantic-release-test/compare/v1.0.0...v1.1.0) (2021-10-01)
 
 
